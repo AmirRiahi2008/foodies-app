@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import classes from "./page.module.css";
 import ImageSlideshow from "@/components/images/image-slideshow";
+import { deleteUserById } from "../lib/meals";
 
 export default function Home() {
   return (
